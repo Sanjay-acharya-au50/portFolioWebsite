@@ -61,7 +61,9 @@ const { route } = require('express/lib/application');
 mongoose.set('strictQuery', true);
 
 // atlas connected here --- * ---
-const db = "mongodb+srv://sanjayacharya992:unlockno010203@cluster0.yknn4iq.mongodb.net/my_project?retryWrites=true&w=majority"
+// const db = "mongodb+srv://sanjayacharya992:unlockno010203@cluster0.yknn4iq.mongodb.net/my_project?retryWrites=true&w=majority"
+const db =
+  "mongodb+srv://sanjayacharya992:san123@cluster0.yknn4iq.mongodb.net/my_project?retryWrites=true&w=majority";
 // const db = "mongodb://localhost:27017/my_project"
 
 mongoose.connect(db, () => {
